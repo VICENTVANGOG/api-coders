@@ -60,7 +60,7 @@ function CodersTable({ data }: IProps) {
         <div className="modal">
           <div className="modal-content">
             <span className="close" onClick={closeModal}>&times;</span>
-            <h2>{isEditing ? "Editar Codificador" : "Agregar Nuevo Codificador"}</h2>
+            <h2>{isEditing ? "Editar Coder" : "Agregar Nuevo Coder"}</h2>
             <form onSubmit={handleCreateOrUpdate}>
               <label>
                 Nombre:
